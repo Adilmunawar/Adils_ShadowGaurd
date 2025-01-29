@@ -1,52 +1,44 @@
-# Prerequisites
-*.d
+# Windows OS generated files
+Thumbs.db
+ehthumbs.db
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
 
-# Linker output
-*.ilk
-*.map
+# Log files
+*.log
+logs/
+
+# Build output directories
+bin/
+obj/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# IDE configuration folders (e.g., Visual Studio, VSCode)
+.vs/
+.vscode/
+.idea/
+
+# Temporary files (e.g., backup, swap, temp)
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Compiled files (executable, libraries, debug symbols)
+*.exe
+*.dll
+*.pdb
+*.lib
 *.exp
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Encrypted log files (if any)
+ADEncrypt/
